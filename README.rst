@@ -13,7 +13,7 @@ To make a static executable::
     >>> from pycompiler import compile, Executable
     >>> executable = Executable()
     >>> executable.write("foo")
-    >>> compile(code, ".test.out")
+    >>> compile(executable, ".test.out")
 
 Then a executable was created::
 
